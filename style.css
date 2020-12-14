@@ -4,7 +4,7 @@ html {
 
 body {
     background: 'violet';
-    color: 'skyblue';
+    color: rgba(255, 255, 255, .8);
 }
 
 a, a:visited, a:focus, a:active {
@@ -36,7 +36,7 @@ a, a:visited, a:focus, a:active {
 .mid {
     text-align: center;
     font-size: 4em;
-    color: white;
+    color: 'skyblue';
     font-weight: bold;
     line-height: 1;
 }
