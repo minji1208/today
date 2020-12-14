@@ -3,12 +3,12 @@ html {
 }
 
 body {
-    background: violet;
-    color: rgba(255, 255, 255, .8);
+    background: 'violet';
+    color: 'skyblue';
 }
 
 a, a:visited, a:focus, a:active {
-    color: skyblue;
+    color: inherit;
 }
 
 .wrapper {
