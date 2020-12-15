@@ -12,19 +12,28 @@
     <title>오늘은 몇주차?</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="header">
-            <span id="date"></span>
-        </div>
-        <div class="box">
-            <div class="top">오늘은 올해의</div>
-            <div class="mid"><span id="week-number"></span>번째 주</div>
-            <div class="bot">입니다!</div>
-        </div>
-        <div class="footer">
-            <a href="https://github.com/nyeong/nth-week-today">source</a>
-        </div>
-    </div>
+   <script>
+		var current = new Date();
+		document.write("현재 시간 : "+ current.toUTCString());
+	</script>
+	<div id="fixed">
+	<script language="JavaScript">
+	<!--
+	var countDownDate = new Date("December 8, 2021 00:00:00").getTime();
+	var x = setInterval(function() {
+		var now = Date().getTime();
+
+		var distance=countDownDate - now;
+
+		var d = Math.floor(distance/(1000*60*60*24));
+		var h=Math.floor((distance%(1000*60*60^24))/(1000*60*60));
+		var m = Math.floor((distance%(1000*60*60))/(1000*60));
+		var s = Math.floor((distance%(1000*60))/1000);
+
+		document.getElementByld("D-day").innerHTML="디데이까지"+d+"일"+h+"시간"+m+"분"+s+"초 남았습니다";
+	})
+</script>
+</div>
 
     <script src="script.js"></script>
 </body>
